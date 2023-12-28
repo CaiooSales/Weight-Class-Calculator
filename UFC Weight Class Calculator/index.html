@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Class Calculator</title>
+    <link rel="stylesheet" href="./Assets/Styles/styles.css">
+</head>
+<body>
+
+<header>
+    <nav id="first-nav">
+        <li class="nav-links">Events</li>
+        <li class="nav-links">Ranking</li>
+        <li class="nav-links">Athletes</li>
+    </nav>
+    <img id="ufc-logo" src="https://seeklogo.com/images/U/ufc-logo-9ED3D1B101-seeklogo.com.png" alt="UFC logo">
+    <nav id="second-nav">
+        <li class="nav-link">UFC Aniversary</li>
+        <li class="nav-link">Watch</li>
+        <li class="nav-link">UFC Fantasy</li>
+    </nav>
+</header> 
+<section id="first-section">
+    <h1 id="main-title">
+        Unleash Your Inner Warrior: Find Your UFC Weight Class!
+    </h1>
+    <h2 id="sub-title">
+        The time has come to discover your true UFC destiny! Introducing our UFC Weight Class Calculator – the ultimate tool to determine the division where you'd reign supreme.
+    </h2>
+</section>
+<section id="second-section">
+    <h1 id="how-work">
+        How Does It Work?
+    </h1>
+    <ol>
+        <li class="how-to-use">Enter your height and weight – the cornerstones of your fighting physique.</li>
+        <li class="how-to-use">Unleash the power of our algorithm, specially designed to match you with the perfect weight class.</li>
+        <li class="how-to-use">Voila! Discover the division where you'd carve your legacy as a UFC warrior!</li>
+    </ol>
+</section>
+<section id="calculator-section">
+    <div class="measure">
+        <h1 class="measure-h1">
+            Height
+        </h1>
+        <input id="height" type="number" value="height" placeholder="Put your height in cm" required>
+    </div>
+    <div class="measure">
+        <h1 class="measure-h1">
+            Weight
+        </h1>
+        <input id="weight" type="number" value="weight" placeholder="Put your weight in lbs" required>
+    </div>
+    <div id="btn-div">
+    <button onclick="Discover()" type="button" id="discover-btn">Discover!</button>
+    </div>
+    <h1 id="result"></h1>
+    <p id="result-description"></p>
+</section>
+
+    
+</section>  
+<script src="./script.js"></script>    
+</body>
+</html>
